@@ -253,10 +253,8 @@ This project is open source and available under the **MIT License**. See the LIC
 
 ## 📧 Contact & Social Links
 
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **Email:** [imafrah03@example.com](mailto:imafrah03@example.com)
 - **GitHub:** [@Imafrah](https://github.com/Imafrah)
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Twitter:** [@YourTwitterHandle]
 - **Portfolio:** [mohammedafrahusman.vercel.app](https://mohammedafrahusman.vercel.app)
 
 ---
