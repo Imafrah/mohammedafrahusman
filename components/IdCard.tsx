@@ -92,7 +92,7 @@ const IdCard: React.FC = () => {
                         <div className="card-content">
                             <div className="lanyard-hole"></div>
                             <header className="card-header">
-                                <img src={logoSvg} alt="Logo" className="logo" />
+                                <img src='public/Profile_Headshot.png' alt="Logo" className="logo" />
                                 <span className="username">{portfolioConfig.username}</span>
                             </header>
                             <div className="card-photo-container">
