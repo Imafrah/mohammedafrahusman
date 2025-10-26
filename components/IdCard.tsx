@@ -26,7 +26,7 @@ const IdCard: React.FC = () => {
     };
 
     // Placeholder SVG Logo (Terminal Icon)
-    const logoSvg = 'public/Profile_Headshot.png';
+    const logoSvg = portfolioConfig.avatar;
 
     useEffect(() => {
         const tiltElement = cardRef.current;
@@ -92,7 +92,7 @@ const IdCard: React.FC = () => {
                         <div className="card-content">
                             <div className="lanyard-hole"></div>
                             <header className="card-header">
-                                <img src='public/Profile_Headshot.png' alt="Logo" className="logo" />
+                                <img src={logoSvg} alt="Logo" className="logo" />
                                 <span className="username">{portfolioConfig.username}</span>
                             </header>
                             <div className="card-photo-container">
