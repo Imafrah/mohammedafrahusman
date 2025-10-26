@@ -25,8 +25,8 @@ const IdCard: React.FC = () => {
         setIsFlipped(prevState => !prevState);
     };
 
-    // Placeholder SVG Logo (Terminal Icon)
-    const logoSvg = 'public/Profile_Headshot.png';
+    // Use the avatar from portfolioConfig
+    const logoSvg = portfolioConfig.avatar;
 
     useEffect(() => {
         const tiltElement = cardRef.current;
