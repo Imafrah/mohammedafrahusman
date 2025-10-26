@@ -1,0 +1,5 @@
+{
+  "name": "Terminal Portfolio",
+  "description": "A terminal-style portfolio website built with React and Tailwind CSS, showcasing projects, skills, and experience with an interactive command-line interface.",
+  "requestFramePermissions": []
+}
