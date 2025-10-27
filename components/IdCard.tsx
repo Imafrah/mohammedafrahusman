@@ -119,7 +119,7 @@ const IdCard: React.FC = () => {
                                     <span className="skill-badge">React.js</span>
                                     <span className="skill-badge">Node.js</span>
                                     <span className="skill-badge">Java</span>
-                                    <span className="skill-badge">Google Colud</span>
+                                    <span className="skill-badge">Google Cloud</span>
                                 </div>
                             </div>
                             <div className="socials-section">
