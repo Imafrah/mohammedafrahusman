@@ -25,11 +25,9 @@ const IdCard: React.FC = () => {
         setIsFlipped(prevState => !prevState);
     };
 
-<<<<<<< HEAD
+
     // Use the avatar from portfolioConfig
-=======
-    // Placeholder SVG Logo (Terminal Icon)
->>>>>>> 6d3b2bd2be86bb3a824d8e58140c8a9d8085ed68
+
     const logoSvg = portfolioConfig.avatar;
 
     useEffect(() => {
@@ -44,7 +42,7 @@ const IdCard: React.FC = () => {
             tiltElement.style.setProperty('--mouse-x', `${(x / rect.width) * 100}%`);
             tiltElement.style.setProperty('--mouse-y', `${(y / rect.height) * 100}%`);
         };
-        
+
         document.addEventListener('mousemove', handleMouseMove);
 
         VanillaTilt.init(tiltElement, {
@@ -80,16 +78,16 @@ const IdCard: React.FC = () => {
     const [titleLine1, titleLine2] = portfolioConfig.title.split('|').map(t => t.trim());
 
     return (
-        <div 
-            className="card-container" 
-            tabIndex={0} 
+        <div
+            className="card-container"
+            tabIndex={0}
             aria-label="Interactive 3D portfolio card, click to flip"
             onClick={handleFlip}
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleFlip(); }}
         >
             <div ref={cardRef} className="tilt-card">
                 <div className={`card-inner ${isFlipped ? 'is-flipped' : ''}`}>
-                    
+
                     {/* Card Front */}
                     <div className="card-face card-front">
                         <div className="card-lighting"></div>
@@ -116,7 +114,7 @@ const IdCard: React.FC = () => {
                     {/* Card Back */}
                     <div className="card-face card-back">
                         <div className="card-lighting"></div>
-                         <div className="card-back-content">
+                        <div className="card-back-content">
                             <h2 className="card-back-title">Details</h2>
                             <div className="skills-section">
                                 <div className="skills-grid">
@@ -135,10 +133,10 @@ const IdCard: React.FC = () => {
                                 </a>
                             </div>
                             <div className="card-back-photo-container">
-                                <img 
-                                    src={portfolioConfig.avatar} 
-                                    alt={`Avatar of ${portfolioConfig.name}`} 
-                                    className="card-back-photo" 
+                                <img
+                                    src={portfolioConfig.avatar}
+                                    alt={`Avatar of ${portfolioConfig.name}`}
+                                    className="card-back-photo"
                                     onError={(e) => {
                                         // Fallback to a default avatar if the image fails to load
                                         (e.target as HTMLImageElement).src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIgMTJjMi4yMSAwIDQtMS43OSA0LTRzLTEuNzk0LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjMzLTggNHYyaDE2di0yYzAtMi42Ny01LjMzLTQtOC00eiIvPjwvc3ZnPg==';
