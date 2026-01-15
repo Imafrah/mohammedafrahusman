@@ -2,27 +2,27 @@
 import type { Project, SkillCategory, Themes, ThemeName, Certification, Experience } from './types';
 
 interface PortfolioConfig {
-  name: string;
-  username: string;
-  // NOTE: To update the name in the ASCII art, you'll need to edit it manually below.
-  title: string;
-  email: string;
-  avatar: string;
-  resumeUrl: string;
-  socials: {
-    github: string;
-    linkedin: string;
-  };
-  about: string;
-  education: string;
-  achievements: string[];
-  certifications: {
-    technical: Certification[];
-    industry: Certification[];
-  };
-  skills: SkillCategory;
-  projects: Project[];
-  experiences: Experience[];
+    name: string;
+    username: string;
+    // NOTE: To update the name in the ASCII art, you'll need to edit it manually below.
+    title: string;
+    email: string;
+    avatar: string;
+    resumeUrl: string;
+    socials: {
+        github: string;
+        linkedin: string;
+    };
+    about: string;
+    education: string;
+    achievements: string[];
+    certifications: {
+        technical: Certification[];
+        industry: Certification[];
+    };
+    skills: SkillCategory;
+    projects: Project[];
+    experiences: Experience[];
 }
 
 // NOTE: Add your EmailJS credentials here to enable the 'message' command.
@@ -38,8 +38,8 @@ export const portfolioConfig: PortfolioConfig = {
     username: "imafrah",
     title: "Computer Science Student | Full-Stack Developer",
     email: "imafrah03@gmail.com",
-    avatar: '/Profile.png',
-    resumeUrl: '/Mohammed_Afrah_Usman_resume.pdf', // Direct path to resume in public folder
+    avatar: '/Profile.jpeg',
+    resumeUrl: 'public/Mohammed_Afrah_Usman_resume.pdf', // Direct path to resume in public folder
     socials: {
         github: "https://github.com/Imafrah",
         linkedin: "https://www.linkedin.com/in/mohammed-afrah-usman-6bb087294/",
@@ -56,8 +56,8 @@ export const portfolioConfig: PortfolioConfig = {
     ],
     certifications: {
         technical: [
-            { name: 'Postman API Fundamentals Student Expert', issuer: 'Postman',url: 'https://badgr.com/public/assertions/vMp5QwdiS3CSiip684pu_A' },
-            { name: 'UiPath Academy Automation Explorer Training',issuer: 'UiPath', url: 'https://credentials.uipath.com/0f19b966-a42d-46dd-8c7e-115217a0c2f5#acc.xsU6HKIF' },
+            { name: 'Postman API Fundamentals Student Expert', issuer: 'Postman', url: 'https://badgr.com/public/assertions/vMp5QwdiS3CSiip684pu_A' },
+            { name: 'UiPath Academy Automation Explorer Training', issuer: 'UiPath', url: 'https://credentials.uipath.com/0f19b966-a42d-46dd-8c7e-115217a0c2f5#acc.xsU6HKIF' },
             { name: 'Figma Essential for User Interface and User Experience UI UX ', issuer: 'Udemy', url: 'https://www.udemy.com/certificate/UC-a0c94401-bbaf-4e79-a867-770c90e19172/' },
             { name: 'OpenCV Bootcamp', issuer: 'OpenCV University', url: 'https://courses.opencv.org/certificates/52dc7abe8fc54773900d5d20cdd1f153' },
         ],
@@ -76,7 +76,7 @@ export const portfolioConfig: PortfolioConfig = {
         {
             role: "Web Development Intern",
             company: "Suvidha Foundation",
-            duration: "Oct 2025 - Present",
+            duration: "Oct 2025 - Nov 2025",
             description: "Working on Web-based Natural Language Processing and Natural Language Generation research tasks, focusing on clean implementation, documentation, and originality under mentor guidance.",
             skills: ["Web Development", "NLP", "Research", "Documentation"]
         }
@@ -91,18 +91,34 @@ export const portfolioConfig: PortfolioConfig = {
             thumbnail: new URL('./public/imchef-thumbnail.png', import.meta.url).href,
         },
         {
-            name: "Lazarev Website",
+            name: "Virtual AirBoard",
+            tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "python-dotenv", "Google Gemini API", "GitHub"],
+            description: "AirBoard is an AI-powered touchless whiteboard that enables seamless drawing, writing, and interaction through real-time hand gestures and intelligent virtual controls.",
+            live: "https://github.com/Imafrah/Virtual_Board",
+            repo: "https://github.com/Imafrah/Virtual_Board",
+            thumbnail: new URL('./public/Virtual_Air_Board.png', import.meta.url).href,
+        },
+        {
+            name: "Lazarev",
             tech: ["HTML5 ", "CSS3 ", "JavaScript", "GSAP"],
             description: "This project is a frontend recreation of the Lazarev Agency website, built purely with HTML, CSS, and JavaScript.The goal was to replicate its modern design, smooth animations, and interactive user experience as a practice project to improve my frontend development skills.",
-            live:"https://imafrah.github.io/LAZAREV/",
+            live: "https://imafrah.github.io/LAZAREV/",
             repo: "https://github.com/Imafrah/LAZAREV",
             thumbnail: new URL('./public/lazarev-thumbnail.png', import.meta.url).href,
         },
         {
-            name: "Family Golf Website",
-            tech: ["HTML5 ", "CSS3 ", "JavaScript","GSAP"],
+            name: "Bookit",
+            tech: ["React.js", "Tailwind CSS", "Vite", "TypeScript", "Node.js", "Express.js", "MySQL", "Git", "Vercel + Render"],
+            description: "BookIt is a full-stack adventure booking platform that lets users discover curated experiences, check real-time availability, apply promo codes, and book seamlessly through a cloud deployed web app.",
+            live: "https://bookit-sable-seven.vercel.app/",
+            repo: "https://github.com/Imafrah/Bookit",
+            thumbnail: new URL('./public/Bookit.png', import.meta.url).href,
+        },
+        {
+            name: "Family Golf",
+            tech: ["HTML5 ", "CSS3 ", "JavaScript", "GSAP"],
             description: "Practice recreating real-world website designs.",
-            live:"https://imafrah.github.io/Family-Golf/",
+            live: "https://imafrah.github.io/Family-Golf/",
             repo: "https://github.com/Imafrah/Family-Golf",
             thumbnail: new URL('./public/family-golf-thumbnail.png', import.meta.url).href,
         },
@@ -110,15 +126,15 @@ export const portfolioConfig: PortfolioConfig = {
             name: "Duolingo Inspired Language Learning App",
             tech: ["Figma", "Notion", "Adobe XD"],
             description: "This was more than just a UI/UX exercise it was a lesson in how design can change behavior.",
-            live:"https://www.figma.com/proto/mfI7uKiczgOu624sNs24pI/Duolingo-Prototype-Lesson?node-id=0-1&t=28EpJtgR3HpgSm30-1",
+            live: "https://www.figma.com/proto/mfI7uKiczgOu624sNs24pI/Duolingo-Prototype-Lesson?node-id=0-1&t=28EpJtgR3HpgSm30-1",
             repo: "https://www.figma.com/community/file/1455151900701304952/duolingo-clone-app",
             thumbnail: new URL('./public/duolingo-thumbnail.jpg', import.meta.url).href,
         },
         {
             name: "Currency Converter 💱",
-            tech: ["HTML", "CSS", "JavaScript","API"],
+            tech: ["HTML", "CSS", "JavaScript", "API"],
             description: "A simple web app that allows users to convert between different currencies using real time exchange rates.",
-            live:"https://imafrah.github.io/Projects/Courrency/",
+            live: "https://imafrah.github.io/Projects/Courrency/",
             repo: "https://github.com/Imafrah/Projects/tree/main/Courrency",
             thumbnail: new URL('./public/currency-converter-thumbnail.png', import.meta.url).href,
         },
@@ -126,7 +142,7 @@ export const portfolioConfig: PortfolioConfig = {
             name: "To-Do List 📋",
             tech: ["HTML", "CSS", "JavaScript"],
             description: "A sleek and interactive to-do list app that helps users organize their daily tasks.",
-            live:"https://imafrah.github.io/Projects/To-do-List/",
+            live: "https://imafrah.github.io/Projects/To-do-List/",
             repo: "https://github.com/Imafrah/Projects/tree/main/To-do-List",
             thumbnail: new URL('./public/todo-list-thumbnail.png', import.meta.url).href,
         },
@@ -175,31 +191,31 @@ export const JOKES = [
 ];
 
 export const WELCOME_MESSAGES = [
-  "Welcome to my interactive terminal portfolio!",
-  "Type 'help' to see the full list of available commands."
+    "Welcome to my interactive terminal portfolio!",
+    "Type 'help' to see the full list of available commands."
 ];
 
 export const COMMANDS: { [key: string]: string } = {
-  help: "Display all available commands",
-  about: "Learn more about me",
-  experience: "View my professional experience",
-  projects: "View my recent projects",
-  skills: "See my technical skills",
-  education: "My academic background",
-  achievements: "My accomplishments and certifications",
-  contact: "Find ways to connect with me",
-  resume: "Display my resume summary & download link",
-  message: "Send me a message directly from the terminal",
-  idcard: "Display an interactive 3D ID card",
-  stats: "View visitor and usage statistics",
-  theme: "Switch color themes (e.g., 'theme matrix')",
-  clear: "Clear the terminal screen",
-  // Easter eggs
-  sudo: "Request admin privileges",
-  exit: "Exit the terminal session",
-  hack: "Simulate a security breach",
-  coffee: "Request a virtual coffee break",
-  joke: "Get a random programmer joke",
+    help: "Display all available commands",
+    about: "Learn more about me",
+    experience: "View my professional experience",
+    projects: "View my recent projects",
+    skills: "See my technical skills",
+    education: "My academic background",
+    achievements: "My accomplishments and certifications",
+    contact: "Find ways to connect with me",
+    resume: "Display my resume summary & download link",
+    message: "Send me a message directly from the terminal",
+    idcard: "Display an interactive 3D ID card",
+    stats: "View visitor and usage statistics",
+    theme: "Switch color themes (e.g., 'theme matrix')",
+    clear: "Clear the terminal screen",
+    // Easter eggs
+    sudo: "Request admin privileges",
+    exit: "Exit the terminal session",
+    hack: "Simulate a security breach",
+    coffee: "Request a virtual coffee break",
+    joke: "Get a random programmer joke",
 };
 
 export const THEMES: Themes = {
