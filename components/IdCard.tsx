@@ -25,7 +25,11 @@ const IdCard: React.FC = () => {
         setIsFlipped(prevState => !prevState);
     };
 
+<<<<<<< HEAD
     // Use the avatar from portfolioConfig
+=======
+    // Placeholder SVG Logo (Terminal Icon)
+>>>>>>> 6d3b2bd2be86bb3a824d8e58140c8a9d8085ed68
     const logoSvg = portfolioConfig.avatar;
 
     useEffect(() => {
@@ -119,7 +123,7 @@ const IdCard: React.FC = () => {
                                     <span className="skill-badge">React.js</span>
                                     <span className="skill-badge">Node.js</span>
                                     <span className="skill-badge">Java</span>
-                                    <span className="skill-badge">Google Colud</span>
+                                    <span className="skill-badge">Google Cloud</span>
                                 </div>
                             </div>
                             <div className="socials-section">

@@ -39,7 +39,7 @@ export const portfolioConfig: PortfolioConfig = {
     title: "Computer Science Student | Full-Stack Developer",
     email: "imafrah03@gmail.com",
     avatar: '/Profile.jpeg',
-    resumeUrl: 'public/Mohammed_Afrah_Usman_resume.pdf', // Direct path to resume in public folder
+    resumeUrl: '/Mohammed_Afrah_Usman_resume.pdf', // Direct path to resume in public folder
     socials: {
         github: "https://github.com/Imafrah",
         linkedin: "https://www.linkedin.com/in/mohammed-afrah-usman-6bb087294/",
