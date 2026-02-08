@@ -93,10 +93,19 @@ export const portfolioConfig: PortfolioConfig = {
         {
             name: "Virtual AirBoard",
             tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "python-dotenv", "Google Gemini API", "GitHub"],
-            description: "AirBoard is an AI-powered touchless whiteboard that enables seamless drawing, writing, and interaction through real-time hand gestures and intelligent virtual controls.",
+            description: "AirBoard is an AI powered touchless whiteboard that enables seamless drawing, writing, and interaction through real-time hand gestures and intelligent virtual controls.",
             live: "https://github.com/Imafrah/Virtual_Board",
             repo: "https://github.com/Imafrah/Virtual_Board",
             thumbnail: new URL('./public/Virtual_Air_Board.png', import.meta.url).href,
+        },
+        {
+            name:"SnapMind",
+            tech:["React.js","TypeScript","Vite","Tailwind CSS","Google Gemini API","Edge(Manifest)"],
+            description:"SnapMind is a premium browser extension that uses Google Gemini AI to analyze screenshots and on screen content in real time. It allows users to capture any browser tab and instantly get intelligent insights such as summaries, explanations, translations, and UI understanding all within a sleek,Apple style sidebar interface.Designed for developers, students, and knowledge workers, SnapMind transforms everyday browsing into a smart, context aware experience.",
+            live:"https://microsoftedge.microsoft.com/addons/detail/ddhoadijfnhaffepaeehigiachmkjjfh",
+            repo:"https://github.com/Imafrah/SnapMind",
+            thumbnail:new URL('./public/SnapMind.png',import.meta.url).href,
+
         },
         {
             name: "Lazarev",
