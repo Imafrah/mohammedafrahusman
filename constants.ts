@@ -84,7 +84,7 @@ export const portfolioConfig: PortfolioConfig = {
     projects: [
         {
             name: "AITL - Artificial Intelligence Translation Layer",
-            tech: ["Python", "FastAPI", "Google Gemini API", "React", "PostgreSQL", "Vercel", "Docker", "SQLite"],
+            tech: ["Python", "FastAPI", "Google Gemini API", "React", "PostgreSQL", "Vercel", "Docker", "SQLite", "Render"],
             description: "AITL is a lightweight Python-based middleware that converts unstructured documents into AI-ready JSON through a clean REST API and modular architecture. It provides intelligent entity-aware parsing and output structuring, enabling seamless integration into data pipelines. Ideal for enterprises automating document processing, financial data ingestion, and AI-driven analytics workflows.",
             live: "https://aitl.vercel.app/",
             repo: "https://github.com/Imafrah/AITL",
