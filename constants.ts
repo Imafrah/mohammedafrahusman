@@ -102,7 +102,7 @@ export const portfolioConfig: PortfolioConfig = {
             name: "Virtual AirBoard",
             tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "python-dotenv", "Google Gemini API", "GitHub"],
             description: "AirBoard is an AI-powered touchless whiteboard that enables seamless drawing, writing, and interaction through real-time hand gestures and intelligent virtual controls.",
-            live: "https://github.com/Imafrah/Virtual_Board",
+            live: "https://drive.google.com/file/d/1f-pZnmfSXZIizwTva-qzOUY6u2MQlkkK/view?usp=drive_link",
             repo: "https://github.com/Imafrah/Virtual_Board",
             thumbnail: new URL('./public/Virtual_Air_Board.png', import.meta.url).href,
         },
