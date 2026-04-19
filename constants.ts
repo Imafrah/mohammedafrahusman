@@ -92,8 +92,8 @@ export const portfolioConfig: PortfolioConfig = {
         },
         {
             name: "Imchef E-commerce Website",
-            tech: ["React", "EmailJS", "Tailwind CSS", "Vercel"],
-            description: "Full-featured e-commerce platform with order confirmation.",
+            tech: ["React", "TypeScript", "Firebase", "Stripe", "EmailJS", "Tailwind CSS", "PostCSS", "Radix UI", "Vercel"],
+            description: "Imchef is a revolutionary direct-to-consumer (D2C) e-commerce platform that connects customers directly with sauce manufacturers, eliminating intermediaries and enabling them to purchase fresh, premium noodles and artisan sauces at minimal prices. By bypassing traditional retail channels, customers get authentic products at competitive rates without the markup of physical stores.",
             live: "https://imchef.vercel.app/",
             repo: "https://github.com/Imafrah/Imchef",
             thumbnail: new URL('./public/imchef-thumbnail.png', import.meta.url).href,
@@ -107,8 +107,8 @@ export const portfolioConfig: PortfolioConfig = {
             thumbnail: new URL('./public/Virtual_Air_Board.png', import.meta.url).href,
         },
         {
-            name: "SnapMind",
-            tech: ["React.js", "TypeScript", "Vite", "Tailwind CSS", "Google Gemini API", "Edge(Manifest)"],
+            name: "SnapMind Extension",
+            tech: ["React.js", "TypeScript", "Microsoft Edge", "Tailwind CSS", "Google Gemini API"],
             description: "SnapMind is a premium browser extension that uses Google Gemini AI to analyze screenshots and on screen content in real time. It allows users to capture any browser tab and instantly get intelligent insights such as summaries, explanations, translations, and UI understanding all within a sleek,Apple style sidebar interface.Designed for developers, students, and knowledge workers, SnapMind transforms everyday browsing into a smart, context aware experience.",
             live: "https://microsoftedge.microsoft.com/addons/detail/ddhoadijfnhaffepaeehigiachmkjjfh",
             repo: "https://github.com/Imafrah/SnapMind",
