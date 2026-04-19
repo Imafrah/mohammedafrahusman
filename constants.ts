@@ -83,6 +83,14 @@ export const portfolioConfig: PortfolioConfig = {
     ],
     projects: [
         {
+            name: "AITL - Artificial Intelligence Translation Layer",
+            tech: ["Python", "FastAPI", "Google Gemini API", "React", "PostgreSQL", "Vercel", "Docker", "SQLite"],
+            description: "AITL is a lightweight Python-based middleware that converts unstructured documents into AI-ready JSON through a clean REST API and modular architecture. It provides intelligent entity-aware parsing and output structuring, enabling seamless integration into data pipelines. Ideal for enterprises automating document processing, financial data ingestion, and AI-driven analytics workflows.",
+            live: "https://aitl.vercel.app/",
+            repo: "https://github.com/Imafrah/AITL",
+            thumbnail: new URL('./public/AITL.png', import.meta.url).href,
+        },
+        {
             name: "Imchef E-commerce Website",
             tech: ["React", "EmailJS", "Tailwind CSS", "Vercel"],
             description: "Full-featured e-commerce platform with order confirmation.",
@@ -99,12 +107,12 @@ export const portfolioConfig: PortfolioConfig = {
             thumbnail: new URL('./public/Virtual_Air_Board.png', import.meta.url).href,
         },
         {
-            name:"SnapMind",
-            tech:["React.js","TypeScript","Vite","Tailwind CSS","Google Gemini API","Edge(Manifest)"],
-            description:"SnapMind is a premium browser extension that uses Google Gemini AI to analyze screenshots and on screen content in real time. It allows users to capture any browser tab and instantly get intelligent insights such as summaries, explanations, translations, and UI understanding all within a sleek,Apple style sidebar interface.Designed for developers, students, and knowledge workers, SnapMind transforms everyday browsing into a smart, context aware experience.",
-            live:"https://microsoftedge.microsoft.com/addons/detail/ddhoadijfnhaffepaeehigiachmkjjfh",
-            repo:"https://github.com/Imafrah/SnapMind",
-            thumbnail:new URL('./public/SnapMind.png',import.meta.url).href,
+            name: "SnapMind",
+            tech: ["React.js", "TypeScript", "Vite", "Tailwind CSS", "Google Gemini API", "Edge(Manifest)"],
+            description: "SnapMind is a premium browser extension that uses Google Gemini AI to analyze screenshots and on screen content in real time. It allows users to capture any browser tab and instantly get intelligent insights such as summaries, explanations, translations, and UI understanding all within a sleek,Apple style sidebar interface.Designed for developers, students, and knowledge workers, SnapMind transforms everyday browsing into a smart, context aware experience.",
+            live: "https://microsoftedge.microsoft.com/addons/detail/ddhoadijfnhaffepaeehigiachmkjjfh",
+            repo: "https://github.com/Imafrah/SnapMind",
+            thumbnail: new URL('./public/SnapMind.png', import.meta.url).href,
 
         },
         {
