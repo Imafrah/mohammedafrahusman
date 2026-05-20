@@ -79,7 +79,7 @@ export const portfolioConfig: PortfolioConfig = {
             duration: "May 2025 - April 2026",
             description: "Built a real-time court visualisation interface on Raspberry Pi 5 using ESP32 and UDP socket communication,achieving sub-200ms end-to-end display late",
             skills: ["Python","Arduino Mega", "ESP32", "Raspberry Pi","Research", "Documentation"]
-        }
+        },
         {
             role: "Web Development Intern",
             company: "Suvidha Foundation",
