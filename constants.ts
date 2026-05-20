@@ -39,18 +39,18 @@ export const portfolioConfig: PortfolioConfig = {
     title: "Computer Science Student | Full-Stack Developer",
     email: "imafrah03@gmail.com",
     avatar: '/Profile.jpeg',
-    resumeUrl: '/Mohammed_Afrah_Usman_resume.pdf', // Direct path to resume in public folder
+    resumeUrl: '/mohammed_afrah_usman.pdf', // Direct path to resume in public folder
     socials: {
         github: "https://github.com/Imafrah",
         linkedin: "https://www.linkedin.com/in/mohammed-afrah-usman-6bb087294/",
     },
     about: "Driven by curiosity and creativity, I'm a Computer Science student passionate about crafting seamless web experiences and AI powered solutions.Proficient in JavaScript, React, and Python, I transform ideas into interactive, real world applications.I thrive on tackling tough coding challenges and excelling in fast paced hackathon environments.Collaborative and detail-oriented, I'm committed to continuous learning and innovation.My mission is to build technology that inspires, connects, and makes an impact.",
-    education: "B.E in Computer Science and Engineering | Manglore Institute of Technology And Engineering | 2023 - 2027 | CGPA: 8.5/10\nPre University College (PCMC) | Saint Mary's Syrian PU College | 2021 - 2023 | Percentage: 93% /100",
+    education: "B.E in Computer Science and Engineering | Manglore Institute of Technology And Engineering | 2023 - 2027 | CGPA: 8.6/10\nPre University College (PCMC) | Saint Mary's Syrian PU College | 2021 - 2023 | Percentage: 93% /100",
     achievements: [
         "🏆 Google Cloud Arcade Facilitator (Champions Tier), Jul-Dec 2024: Recognized for completing hands-on labs and earning 78 Arcade Points.",
         "🏆 Hack Heist 2.0: Top 7 Ranked (Mangalore Institute of Technology)",
         "☁️ Google Cloud Arcade: Earned 78 points, demonstrating cloud proficiency.",
-        "💻 Competitive Programming: Solved 50+ problems on platforms like LeetCode and HackerRank.",
+        "💻 Competitive Programming: Solved 100+ problems on platforms like LeetCode and HackerRank.",
         "🎤 Tech Speaker: Presented on CSPRNG algorithms and Cloudflare encryption.",
         "🚀 SIH Hackathon : Our team was shortlisted for the national level Smart India Hackathon (SIH) after excelling in the internal SIH hackathon competition."
     ],
@@ -74,6 +74,13 @@ export const portfolioConfig: PortfolioConfig = {
     },
     experiences: [
         {
+            role: "Software & Product Development Engineer",
+            company: "Vyanika Innovations LLP ",
+            duration: "May 2025 - April 2026",
+            description: "Built a real-time court visualisation interface on Raspberry Pi 5 using ESP32 and UDP socket communication,achieving sub-200ms end-to-end display late",
+            skills: ["Python","Arduino Mega", "ESP32", "Raspberry Pi","Research", "Documentation"]
+        }
+        {
             role: "Web Development Intern",
             company: "Suvidha Foundation",
             duration: "Oct 2025 - Nov 2025",
@@ -82,6 +89,14 @@ export const portfolioConfig: PortfolioConfig = {
         }
     ],
     projects: [
+        {
+            name: "LTR Serach Engine Model",
+            tech: ["Python", "LightGBM", "BM25", "FastAPI","Streamlit"],
+            description: "A real-time search engine that retrieves documents using BM25 and re-ranks them with a LambdaMART model to deliver highly relevant results.",
+            live: "https://search-engine-model-timrmaacspwiqlvhgdxh7v.streamlit.app/",
+            repo: "https://github.com/Imafrah/Search-Engine-Model",
+            thumbnail: new URL('./public/LTR_Search_engine.png', import.meta.url).href,
+        },
         {
             name: "AITL - Artificial Intelligence Translation Layer",
             tech: ["Python", "FastAPI", "Google Gemini API", "React", "PostgreSQL", "Vercel", "Docker", "SQLite", "Render"],
